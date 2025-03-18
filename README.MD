@@ -18,7 +18,7 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/kadissa/stripe_project
+   git clone https://github.com/kadissa/TestTaskPTMK
    ```
 2. Open project in your IDE, create file `.env` in the root directory
 
