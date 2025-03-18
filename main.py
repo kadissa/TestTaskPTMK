@@ -5,7 +5,7 @@ from models import Employee, EmployeeGenerator
 
 def main():
     parser = argparse.ArgumentParser(description="Employee Management CLI")
-    parser.add_argument("mode", type=int, help="Режим работы приложения (1-6)")
+    parser.add_argument("mode", type=int, help="Режим работы приложения (1-5)")
     parser.add_argument("full_name", nargs="?", type=str,
                         help="ФИО сотрудника")
     parser.add_argument("birth_date", nargs="?", type=str,
